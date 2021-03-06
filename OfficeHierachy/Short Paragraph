@@ -1,0 +1,19 @@
+
+Since the file creates a heirachy, i thought it was best to use a Tree-like structure to represent it. I also used Dictionaries because they give that ability to link data of different types. 
+My solution constist of one class Office.cs that represents an office, which consists of an OfficeName, Amount,Parent Office and its Descendants. The office class implements a few methods. You can add descendants to an Office, retrieve a descendant of an office, Find the Net profit of an office.
+
+Question 1
+For this question, the algorithm is as follows:
+Read in the data from file
+Sort and store using the Office class
+Read in the name of Office to get desired Net Profit
+Calculate and print the desired Net Profit
+
+Question 2
+For this question, the algorithm is as follows:
+Read in the data from file
+Sort and store using the Office class
+Compare the Net Profit of all offices and find the largest
+Print the Name and the Profit
+
+
