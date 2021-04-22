@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th ="http://www.thymeleaf.org">  <!--useful to link input data to an object-->
+<head> 
+    <title>Create Email</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h2>Enter Your  Details</h2>
+
+    <form th:action="@{/createEmail}" th:object="${Email}" method="GET">
+
+      <label for="fisrtName">First name:</label><br>
+      <input type="text"  name="firstName" th:field="*{firstName}" value="name"><br>
+
+      <label for="lastName">Last name:</label><br>
+      <input type="text"  th:name="lastName" th:field="*{lastName}" value="last name"><br><br>
+
+      <button type="submit" name="submit" value="0"> Create Email </button>
+    </form>   
+  Your Email Address is: <p th:text="*{email}"></p>
+</body>
+</html>
