@@ -1,7 +1,0 @@
-C:\Users\Admin\source\repos\GBSM\GBSM\bin\Debug\GBSM.exe.config
-C:\Users\Admin\source\repos\GBSM\GBSM\bin\Debug\GBSM.exe
-C:\Users\Admin\source\repos\GBSM\GBSM\bin\Debug\GBSM.pdb
-C:\Users\Admin\source\repos\GBSM\GBSM\obj\Debug\GBSMQ1.csprojAssemblyReference.cache
-C:\Users\Admin\source\repos\GBSM\GBSM\obj\Debug\GBSMQ1.csproj.CoreCompileInputs.cache
-C:\Users\Admin\source\repos\GBSM\GBSM\obj\Debug\GBSM.exe
-C:\Users\Admin\source\repos\GBSM\GBSM\obj\Debug\GBSM.pdb
